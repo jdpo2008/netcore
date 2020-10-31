@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Tgs.Entities.Seguridad
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@{
+    var culture = CultureInfo.CurrentCulture.Name;
+}
+
+    <ul class="navbar-nav">
+        
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    @User.FindFirst("NickName").Value
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Profile" asp-route-culture="@culture">
+                        <i class="fas fa-user"></i> Perfil
+                    </a>
+                    <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/ChangePassword">
+                        <i class="fas fa-key"></i> Contraseña
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                        <button type="submit" class="dropdown-item">
+                            <i class="fas fa-sign-out"></i> Logout
+                        </button>
+                    </form>
+                </div>
+                @*<a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity.Name!</a>*@
+
+            </li>
+            <li class="nav-item">
+                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                    <button type="submit" class="nav-link btn btn-link text-white">
+                        <i class="fas fa-sign-out"></i> Logout
+                    </button>
+                </form>
+            </li>
+        }
+        else
+        {
+            <li class="nav-item">
+                <a localize-content class="nav-link text-white" asp-area="Identity" asp-page="/Account/Register" asp-route-culture="@culture">
+                    <i class="fas fa-user-alt"></i> Register
+                </a>
+            </li>
+            <li class="nav-item">
+                <a localize-content class="nav-link text-white" asp-area="Identity" asp-page="/Account/Login" asp-route-culture="@culture">
+                    <i class="fas fa-sign-in"></i> Login
+                </a>
+            </li>
+        }
+
+    </ul>

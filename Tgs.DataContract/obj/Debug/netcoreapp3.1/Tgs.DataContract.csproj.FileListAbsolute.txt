@@ -1,0 +1,9 @@
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.DataContract\bin\Debug\netcoreapp3.1\Tgs.DataContract.deps.json
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.DataContract\bin\Debug\netcoreapp3.1\Tgs.DataContract.dll
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.DataContract\bin\Debug\netcoreapp3.1\Tgs.DataContract.pdb
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.DataContract\obj\Debug\netcoreapp3.1\Tgs.DataContract.AssemblyInfoInputs.cache
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.DataContract\obj\Debug\netcoreapp3.1\Tgs.DataContract.AssemblyInfo.cs
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.DataContract\obj\Debug\netcoreapp3.1\Tgs.DataContract.dll
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.DataContract\obj\Debug\netcoreapp3.1\Tgs.DataContract.pdb
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.DataContract\obj\Debug\netcoreapp3.1\Tgs.DataContract.csprojAssemblyReference.cache
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.DataContract\obj\Debug\netcoreapp3.1\Tgs.DataContract.csproj.CoreCompileInputs.cache

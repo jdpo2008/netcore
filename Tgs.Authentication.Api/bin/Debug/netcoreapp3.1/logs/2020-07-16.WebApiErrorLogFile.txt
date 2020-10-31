@@ -1,0 +1,12 @@
+2020-07-16 23:04:12.0045||DEBUG|Tgs.Web.Authentication.Api.Program|init main |url: |action: 
+2020-07-16 23:04:38.0277||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2020-07-16 23:04:38.0427||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2020-07-16 23:04:38.0498||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Authentication.Api |url: |action: 
+2020-07-16 23:04:38.4566|1|DEBUG|Tgs.Web.Authentication.Api.Controllers.HomeController|NLog injected into HomeController |url: https://localhost/home|action: Get
+2020-07-16 23:04:38.8082||INFO|Tgs.Web.Authentication.Api.Controllers.HomeController|Api funcionando correctamente |url: https://localhost/home|action: Get
+2020-07-16 23:09:28.9717||DEBUG|Tgs.Web.Authentication.Api.Program|init main |url: |action: 
+2020-07-16 23:09:36.4803||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2020-07-16 23:09:36.4923||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2020-07-16 23:09:36.5007||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Authentication.Api |url: |action: 
+2020-07-16 23:09:36.7352|1|DEBUG|Tgs.Web.Authentication.Api.Controllers.HomeController|NLog injected into HomeController |url: https://localhost/home|action: Get
+2020-07-16 23:09:36.9827||INFO|Tgs.Web.Authentication.Api.Controllers.HomeController|Api funcionando correctamente |url: https://localhost/home|action: Get

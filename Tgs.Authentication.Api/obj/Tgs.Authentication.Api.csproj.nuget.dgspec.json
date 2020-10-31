@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Authentication.Api\\Tgs.Authentication.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Authentication.Api\\Tgs.Authentication.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Authentication.Api\\Tgs.Authentication.Api.csproj",
+        "projectName": "Tgs.Authentication.Api",
+        "projectPath": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Authentication.Api\\Tgs.Authentication.Api.csproj",
+        "packagesPath": "C:\\Users\\jperezoch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Authentication.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jperezoch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.DataContract\\Tgs.DataContract.csproj": {
+                "projectPath": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.DataContract\\Tgs.DataContract.csproj"
+              },
+              "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Entities\\Tgs.Entities.csproj": {
+                "projectPath": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Entities\\Tgs.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.DataContract\\Tgs.DataContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.DataContract\\Tgs.DataContract.csproj",
+        "projectName": "Tgs.DataContract",
+        "projectPath": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.DataContract\\Tgs.DataContract.csproj",
+        "packagesPath": "C:\\Users\\jperezoch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.DataContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jperezoch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Entities\\Tgs.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Entities\\Tgs.Entities.csproj",
+        "projectName": "Tgs.Entities",
+        "projectPath": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Entities\\Tgs.Entities.csproj",
+        "packagesPath": "C:\\Users\\jperezoch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jperezoch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

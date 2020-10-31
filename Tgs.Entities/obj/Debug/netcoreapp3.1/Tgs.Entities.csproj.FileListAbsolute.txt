@@ -1,0 +1,9 @@
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Entities\bin\Debug\netcoreapp3.1\Tgs.Entities.deps.json
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Entities\bin\Debug\netcoreapp3.1\Tgs.Entities.dll
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Entities\obj\Debug\netcoreapp3.1\Tgs.Entities.AssemblyInfoInputs.cache
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Entities\obj\Debug\netcoreapp3.1\Tgs.Entities.AssemblyInfo.cs
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Entities\bin\Debug\netcoreapp3.1\Tgs.Entities.pdb
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Entities\obj\Debug\netcoreapp3.1\Tgs.Entities.csproj.CoreCompileInputs.cache
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Entities\obj\Debug\netcoreapp3.1\Tgs.Entities.dll
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Entities\obj\Debug\netcoreapp3.1\Tgs.Entities.pdb
+C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Entities\obj\Debug\netcoreapp3.1\Tgs.Entities.csprojAssemblyReference.cache

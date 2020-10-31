@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "59uQpWx99cTd5UExbX3Kd3j+76tIcc4TWPV1UPj2p2M9bk7Oi2vxEZNNB5TnJcNcnBORI6g4+XjWjJOnkN8cYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jperezoch\\source\\repos\\WebNetCore\\Tgs.DataContract\\Tgs.DataContract.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jperezoch\\.nuget\\packages\\lazziya.expresslocalization\\4.0.1\\lazziya.expresslocalization.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

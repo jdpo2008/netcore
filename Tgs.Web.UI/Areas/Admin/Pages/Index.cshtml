@@ -1,0 +1,75 @@
+﻿@page
+@model Tgs.Web.UI.Areas.Admin.Pages.IndexModel
+@{
+    ViewData["Title"] = "Users";
+}
+
+<div class="container-fluid">
+    <div class="row  ml-1">
+        <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-outline-primary">
+            <i class="fas fa-plus"></i> Agregar
+        </a>
+    </div>
+    <div class="table-responsive-xl mt-1">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Input.FirstName)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Input.LastName)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Input.UserName)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Input.Email)
+                    </th>
+                    <th scope="col">
+                        @Html.DisplayNameFor(model => model.Input.PhoneNumber)
+                    </th>
+                    <th scope="col" class="text-center">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Users)
+                {
+                    var i = 0;
+                    i++;
+                    <tr>
+                        <td>
+                            @i
+                        </td>
+                        <td>
+                            @item.FirstName
+                        </td>
+                        <td>
+                            @item.LastName
+                        </td>
+                        <td>
+                            @item.UserName
+                        </td>
+                        <td>
+                            @item.Email
+                        </td>
+                        <td>
+                            @item.PhoneNumber
+                        </td>
+                        <td>
+                            <center>
+                                <button class="btn btn-outline-dark">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn btn-outline-danger">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </center>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

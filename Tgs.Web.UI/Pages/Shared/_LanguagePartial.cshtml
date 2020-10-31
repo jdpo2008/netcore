@@ -1,0 +1,58 @@
+﻿@using Microsoft.AspNetCore.Builder
+@using Microsoft.Extensions.Options
+@using Tgs.DataContract
+ 
+@inject IOptions<RequestLocalizationOptions> LocOps
+
+@{
+    var requestCulture = CultureInfo.CurrentCulture;
+
+
+
+    var supportedCultures = LocOps.Value.SupportedUICultures
+
+        .Select(c => new CustomSelectListItem
+        {
+            Value = $"{c.Name}",
+            Text = $"{c.DisplayName}",
+            Icon = c.Name.Split('-')
+        }).ToList();
+
+    var routeData = new Dictionary<string, string>();
+
+
+    foreach (var r in ViewContext.RouteData.Values)
+    {
+        routeData.Add(r.Key, r.Value.ToString());
+
+    }
+
+    foreach (var qs in Context.Request.Query)
+    {
+        routeData.Add(qs.Key, qs.Value);
+
+    }
+    Console.WriteLine(supportedCultures);
+}
+
+<div class="nav-item dropdown">
+    <a class="nav-link  text-white" href="#" role="button" id="dropdownLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="flag-icon flag-icon-@requestCulture.Name.Split('-')[1].ToLower()"></span> @requestCulture.Name.Split('-')[0].ToUpper()
+    </a>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownLang">
+        @foreach (var culture in supportedCultures)
+        {
+            if (culture.Value.ToLower() != requestCulture.Name.ToLower())
+            {
+                // replace {culture} value with the one from the list
+                routeData["culture"] = culture.Value;
+                
+                <a class="dropdown-item"
+                   asp-all-route-data="@routeData">
+                    <span class="flag-icon flag-icon-@culture.Icon[1].ToLower()"></span> @culture.Value
+                </a>
+            }
+        }
+    </div>
+</div>

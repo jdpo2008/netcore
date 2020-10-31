@@ -1,0 +1,6 @@
+2020-06-28 20:13:39.6610 Info Message Template Auto Format enabled
+2020-06-28 20:13:39.6809 Info Loading assembly: NLog.Web.AspNetCore
+2020-06-28 20:13:39.7110 Info Adding target ColoredConsoleTarget(Name=console)
+2020-06-28 20:13:39.7660 Info Adding target FileTarget(Name=file)
+2020-06-28 20:13:39.8207 Info Validating config: TargetNames=file, ConfigItems=28, FilePath=C:\Users\jperezoch\source\repos\WebNetCore\Tgs.Authentication.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-06-28 20:13:39.8312 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
